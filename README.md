@@ -63,7 +63,7 @@ The designs were created to the following widths:
 ![](design/desktop-design.jpg)
 
 ### Links
-- Live Site URL: [https://rvivenzio.github.io/3-column-preview-card-component-main/](https://github.com/rvivenzio/3-column-preview-card-component-main)
+- Live Site URL: [https://rvivenzio.github.io/3-column-preview-card-component-main/](https://rvivenzio.github.io/3-column-preview-card-component-main/)
 
 ### Built with
 
