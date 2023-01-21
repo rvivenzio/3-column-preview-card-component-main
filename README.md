@@ -1,7 +1,7 @@
-![Challenge Design](desktop/desktop-design.jpg)
+![Challenge Design](design/desktop-design.jpg)
 
 <div align="center">
- <h1>Stats preview card component</h1>
+ <h1>3-column preview card component with CSS</h1>
  <h3>
     <a href="https://github.com/rvivenzio/3-column-preview-card-component-main">
       Live
@@ -60,7 +60,7 @@ The designs were created to the following widths:
 - Desktop: 1440px
 
 ### Screenshot
-![](desktop/desktop-design.jpg)
+![](design/desktop-design.jpg)
 
 ### Links
 - Live Site URL: [https://github.com/rvivenzio/3-column-preview-card-component-main](https://github.com/rvivenzio/3-column-preview-card-component-main)
