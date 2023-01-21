@@ -3,7 +3,7 @@
 <div align="center">
  <h1>3-column preview card component with CSS</h1>
  <h3>
-    <a href="https://github.com/rvivenzio/3-column-preview-card-component-main">
+    <a href="https://rvivenzio.github.io/3-column-preview-card-component-main/">
       Live
     </a>
     <span>&nbsp;|&nbsp;</span>
@@ -63,7 +63,7 @@ The designs were created to the following widths:
 ![](design/desktop-design.jpg)
 
 ### Links
-- Live Site URL: [https://github.com/rvivenzio/3-column-preview-card-component-main](https://github.com/rvivenzio/3-column-preview-card-component-main)
+- Live Site URL: [https://rvivenzio.github.io/3-column-preview-card-component-main/](https://github.com/rvivenzio/3-column-preview-card-component-main)
 
 ### Built with
 
