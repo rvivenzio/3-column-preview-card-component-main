@@ -1,0 +1,146 @@
+/* 
+1. Posicionamiento --> static, absolute, relative, fixed
+2. Modelo de caja (Box model) --> margin, border, padding, content
+3. Tipografía --> tipos, tamaños de fuente, etc
+4. Estilos visuales --> box-shadow, border-radius, gradient, etc
+5. Otros --> reglas CSS y más
+*/
+
+:root {
+    /* Colores */
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+
+    /* Fonts */
+    --font-big: 'Big Shoulders Display', sans-serif;
+	--font-lexend: 'Lexend Deca', sans-serif;
+    --font-size: 1.5rem;
+	
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-lexend);
+}
+
+body {
+    font-size: var(--font-size);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    max-width: 350px;
+    min-width: 280px;
+    height: auto;
+    margin: 5rem auto;
+    border-radius: .5rem;
+    overflow: hidden;
+
+}
+
+/* General styles */
+article.card {
+    padding: 3rem 2.5rem;
+} 
+
+/* General styles Icons*/
+.card__icon {
+    display: block;
+    margin-bottom: 1.5rem;
+    width: 40px;
+    height: 30px;
+    background: url('../images/icon-sedans.svg') no-repeat center/contain;
+}
+
+
+/* Icons Bg*/
+.card__icon--Sedans {
+    background: url('../images/icon-sedans.svg') no-repeat center/contain;
+}
+
+.card__icon--SUVs{
+    background: url('../images/icon-suvs.svg') no-repeat center/contain;
+}
+
+.card__icon--Luxury {
+    background: url('../images/icon-luxury.svg') no-repeat center/contain;
+}
+
+/* Titles */
+.card__title {
+    margin-bottom: 1.5rem;
+    font-family: var(--font-big);
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+
+.card__description {
+    margin-bottom: 1.5rem;
+    padding-right: 4.5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: white;
+}
+
+.card__button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    width: 11rem;
+    height: 3.5rem;
+    border: 0.25rem solid white;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.card__button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* Cards background colors */
+article:nth-of-type(1) {
+    background-color: var(--Bright-orange);
+}
+
+article:nth-of-type(2) {
+    background-color: var(--Dark-cyan);
+}
+
+article:nth-of-type(3) {
+    background-color: var(--Very-dark-cyan);
+}
+
+/* Text button color */
+.card__button--Sedans {
+    color: var(--Bright-orange);
+}
+
+.card__button---SUVs {
+    color: var(--Dark-cyan);
+}
+
+.card__button--Luxury {
+    color: var(--Very-dark-cyan);
+}
+
+

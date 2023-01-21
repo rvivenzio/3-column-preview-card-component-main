@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    display: flex;
+}
+
+main {
+    flex-direction: row;
+    margin: auto;
+    max-width: 930px;
+     
+}
+
+article.card {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    
+}
+
+.card__button {
+    margin-top: auto;
+}
